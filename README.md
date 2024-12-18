@@ -1,4 +1,4 @@
-# stl80 _. 
+# stl80
 
 
 all/epg.xml

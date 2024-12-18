@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build site
-        run: your-build-command
+        run: ls
       - name: Deploy
         uses: actions/deploy-pages@v1

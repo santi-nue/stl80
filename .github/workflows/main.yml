@@ -22,4 +22,4 @@ jobs:
           DATE=$(date +'%Y-%m-%d')
           echo "" > "index-${DATE}.html"      
       - name: Deploy
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v3

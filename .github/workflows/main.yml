@@ -18,6 +18,8 @@ jobs:
 
       
       - name: Build site
-        run: echo "" > index.html
+        run: |
+          DATE=$(date +'%Y-%m-%d')
+          echo "" > "index-${DATE}.html"      
       - name: Deploy
         uses: actions/deploy-pages@v1
